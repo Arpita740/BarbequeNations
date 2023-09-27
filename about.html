@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/recipes/logo.jpg" alt="simply recipes" style="border-radius: 50%; width: 100px; height: 100px;" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <section class="about-page">
+        <article>
+          <h2>Welcome to Barbeque Nation!</h2>
+          <p>
+            One of the leading casual dining chains in India, Barbeque Nation pioneered the concept of 
+            “over the table barbeque” live grills embedded in dining tables –
+             allowing guests to grill their own barbecue’s right at their tables. 
+             Barbeque Nation was founded in 2006 with the concept of 'all you can eat'.
+          </p>
+          <p>
+            Menu (including prices) for Barbeque Nation may have changed since the last update.
+             Zomato does not guarantee prices or the availability of menu items at Barbeque Nation. 
+             Menu images shown on this app have been digitised by Zomato.
+          </p>
+          <a href="contact.html" class="btn"> contact </a>
+        </article>
+        <!-- needs fixes -->
+        <img
+          src="./assets/recipes/about.jpg"
+          alt="Person Pouring Salt in Bowl"
+          class="img about-img"
+        />
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Look At This Awesomesouce!</h5>
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.gif"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Chicken biryani</h5>
+            <p>Prep : 15min | Cook : 1hr</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe2.jpg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Chicken Masala</h5>
+            <p>Prep : 20min | Cook : 2hr</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/chicken.webp"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Tangdi Kabab</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/p1.webp"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Prawn Kabab</h5>
+            <p>Prep : 20 min | Cook : 10min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">&copy; Arpita</span> 
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

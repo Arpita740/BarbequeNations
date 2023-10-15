@@ -1,3 +1,3 @@
 # BarbequeNations
 
-https://arpita740.github.io/BarbequeNations/tag-template.html
+https://arpita740.github.io/BarbequeNations/index.html
